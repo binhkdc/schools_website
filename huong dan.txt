@@ -1,3 +1,18 @@
-Đã có thư viện bootstrap,jquery,fontawesome vào file code luôn phần body
+đã thêm thư viện bootstrap,
+mỗi trang nên tạo 1 css riêng
 
-
+quy trình code với github
+1: nhập lệnh 
+-> git checkout staging
+2: lấy code từ nhánh staging về:
+-> git pull origin staging
+3: tạo 1 đường dẫn mới cho riêng mình
+-> git checkout -b feature-ten-tinh-nang
+ví dụ nếu làm trang contact thì nhập như sau
+-> git checkout -b feature-contact-page
+4: bắt đầu code 
+5: code xong dùng git gui để push and submit code
+-> commit cho đúng :P
+6: push xong đăng nhập git tạo pull request
+tạo pull với request staging xong sẽ có người merge
+7: mỗi 1 lần code làm từ bước 1.
